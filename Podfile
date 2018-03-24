@@ -6,6 +6,7 @@ target 'Quiz' do
   use_frameworks!
 
   # Pods for Quiz
+  # pod 'Mapbox-iOS-SDK', '~> 3.7'
 
   target 'QuizTests' do
     inherit! :search_paths

@@ -16,8 +16,16 @@
 		30CAB99E206675EF008EC8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CAB99C206675EF008EC8CF /* LaunchScreen.storyboard */; };
 		30CAB9A9206675EF008EC8CF /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB9A8206675EF008EC8CF /* QuizTests.swift */; };
 		30CAB9B720669C5B008EC8CF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB9B620669C5B008EC8CF /* Question.swift */; };
-		30CAB9BA20669FB7008EC8CF /* QuizSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB9B920669FB7008EC8CF /* QuizSpot.swift */; };
 		30CAB9BC2066A0CF008EC8CF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CAB9BB2066A0CF008EC8CF /* Team.swift */; };
+		30FA86C82066E34200E61C5F /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86C72066E34200E61C5F /* GameController.swift */; };
+		30FA86CA2066E54900E61C5F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86C92066E54900E61C5F /* Game.swift */; };
+		30FA86CD2066EE3D00E61C5F /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86CC2066EE3D00E61C5F /* MapManager.swift */; };
+		30FA86CF2066EF3B00E61C5F /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86CE2066EF3B00E61C5F /* Logging.swift */; };
+		30FA86D32066F01700E61C5F /* QuizSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86D22066F01700E61C5F /* QuizSpot.swift */; };
+		30FA86D52066F2E500E61C5F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86D42066F2E500E61C5F /* MapController.swift */; };
+		30FA86D72066F4BA00E61C5F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FA86D62066F4BA00E61C5F /* MapKit.framework */; };
+		30FA86D92066FD5F00E61C5F /* QuizSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86D82066FD5F00E61C5F /* QuizSpotView.swift */; };
+		30FA86DB2067077B00E61C5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA86DA2067077B00E61C5F /* User.swift */; };
 		5EBA21F389BE61C9BA4F1A2B /* Pods_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCB103459050B5A1603011C /* Pods_Quiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +53,16 @@
 		30CAB9A8206675EF008EC8CF /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
 		30CAB9AA206675EF008EC8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CAB9B620669C5B008EC8CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		30CAB9B920669FB7008EC8CF /* QuizSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSpot.swift; sourceTree = "<group>"; };
 		30CAB9BB2066A0CF008EC8CF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		30FA86C72066E34200E61C5F /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		30FA86C92066E54900E61C5F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		30FA86CC2066EE3D00E61C5F /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		30FA86CE2066EF3B00E61C5F /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		30FA86D22066F01700E61C5F /* QuizSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSpot.swift; sourceTree = "<group>"; };
+		30FA86D42066F2E500E61C5F /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		30FA86D62066F4BA00E61C5F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		30FA86D82066FD5F00E61C5F /* QuizSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSpotView.swift; sourceTree = "<group>"; };
+		30FA86DA2067077B00E61C5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5C499160623A66EB582320AB /* Pods-QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTests/Pods-QuizTests.release.xcconfig"; sourceTree = "<group>"; };
 		5DCB103459050B5A1603011C /* Pods_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838E42F2935695BCDE428EF /* Pods-QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTests/Pods-QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FA86D72066F4BA00E61C5F /* MapKit.framework in Frameworks */,
 				5EBA21F389BE61C9BA4F1A2B /* Pods_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +94,7 @@
 		0053DF153BD5446433B36DA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30FA86D62066F4BA00E61C5F /* MapKit.framework */,
 				5DCB103459050B5A1603011C /* Pods_Quiz.framework */,
 				E20204296B9ADB756122735E /* Pods_QuizTests.framework */,
 			);
@@ -117,6 +135,7 @@
 		30CAB98F206675EF008EC8CF /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				30FA86D02066EFF000E61C5F /* Data */,
 				30CAB9B320669B58008EC8CF /* Database */,
 				30CAB9B520669B6A008EC8CF /* UI */,
 				30CAB9B420669B61008EC8CF /* Questions */,
@@ -152,8 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				30CAB9B620669C5B008EC8CF /* Question.swift */,
-				30CAB9B920669FB7008EC8CF /* QuizSpot.swift */,
 				30CAB9BB2066A0CF008EC8CF /* Team.swift */,
+				30FA86C92066E54900E61C5F /* Game.swift */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -161,6 +180,8 @@
 		30CAB9B520669B6A008EC8CF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				30FA86CB2066EE2300E61C5F /* Map */,
+				30FA86C62066E32700E61C5F /* Game */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -168,8 +189,44 @@
 		30CAB9B820669D1E008EC8CF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				30FA86CE2066EF3B00E61C5F /* Logging.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		30FA86C62066E32700E61C5F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				30FA86C72066E34200E61C5F /* GameController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		30FA86CB2066EE2300E61C5F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				30FA86D42066F2E500E61C5F /* MapController.swift */,
+				30FA86D82066FD5F00E61C5F /* QuizSpotView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		30FA86D02066EFF000E61C5F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30FA86D12066EFFC00E61C5F /* Map */,
+				30FA86DA2067077B00E61C5F /* User.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		30FA86D12066EFFC00E61C5F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				30FA86CC2066EE3D00E61C5F /* MapManager.swift */,
+				30FA86D22066F01700E61C5F /* QuizSpot.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +287,11 @@
 					30CAB98C206675EF008EC8CF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					30CAB9A3206675EF008EC8CF = {
 						CreatedOnToolsVersion = 9.2;
@@ -350,9 +412,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quiz/Pods-Quiz-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -382,11 +449,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				30CAB9BC2066A0CF008EC8CF /* Team.swift in Sources */,
+				30FA86CF2066EF3B00E61C5F /* Logging.swift in Sources */,
 				30CAB993206675EF008EC8CF /* ViewController.swift in Sources */,
 				30CAB9B720669C5B008EC8CF /* Question.swift in Sources */,
+				30FA86D52066F2E500E61C5F /* MapController.swift in Sources */,
 				30CAB999206675EF008EC8CF /* Quiz.xcdatamodeld in Sources */,
+				30FA86DB2067077B00E61C5F /* User.swift in Sources */,
 				30CAB991206675EF008EC8CF /* AppDelegate.swift in Sources */,
-				30CAB9BA20669FB7008EC8CF /* QuizSpot.swift in Sources */,
+				30FA86D92066FD5F00E61C5F /* QuizSpotView.swift in Sources */,
+				30FA86C82066E34200E61C5F /* GameController.swift in Sources */,
+				30FA86CD2066EE3D00E61C5F /* MapManager.swift in Sources */,
+				30FA86CA2066E54900E61C5F /* Game.swift in Sources */,
+				30FA86D32066F01700E61C5F /* QuizSpot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
