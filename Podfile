@@ -6,6 +6,7 @@ target 'Quiz' do
   use_frameworks!
 
   # Pods for Quiz
+  # pod 'Moya', '~> 11.0'
 
   target 'QuizTests' do
     inherit! :search_paths
